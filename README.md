@@ -4,7 +4,7 @@
 
 ### Preview
 
-<img src="./screenshot.jpg" alt="Preview image" />
+<img src="./screenshot.png" alt="Preview image" />
 
 [Live Demo](#)
 
