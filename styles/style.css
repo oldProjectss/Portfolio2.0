@@ -19,13 +19,17 @@ body {
 
 .logo {
   font-weight: 700;
-  padding: 20px;
+  padding: 24px;
   color: #6070ff;
+}
+
+a {
+  text-decoration: none;
 }
 
 .menu-btn {
   color: #6070ff;
-  padding: 20px;
+  padding: 24px;
   width: 70px;
 }
 
@@ -33,12 +37,12 @@ body {
   background-image: url(../img/Header_bg.svg);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 110%;
+  background-size: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 150px 50px;
-  align-items: center;
+  padding: 24px;
+  justify-content: center;
 }
 
 .headline-header {
@@ -46,7 +50,7 @@ body {
   font-weight: 700;
   line-height: 52px;
   color: #172b4d;
-  width: 320px;
+  width: 327px;
   padding-bottom: 20px;
 }
 
@@ -55,7 +59,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   color: #344563;
-  width: 320px;
+  width: 327px;
   padding-bottom: 20px;
 }
 
@@ -66,6 +70,8 @@ body {
   line-height: 24px;
   text-decoration: none;
   text-transform: uppercase;
+  margin: 12px 0px 14px 0px;
+  display: block;
 }
 
 .social-links {
