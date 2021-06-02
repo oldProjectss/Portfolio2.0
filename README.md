@@ -4,9 +4,9 @@
 
 ### Preview
 
-<img src="source.jpg" alt="Preview image" />
+<img src="./screenshot.jpg" alt="Preview image" />
 
-[Live Demo](https://github.exemple.com)
+[Live Demo](#)
 
 ### Built with
 

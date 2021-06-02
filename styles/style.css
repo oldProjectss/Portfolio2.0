@@ -19,11 +19,66 @@ body {
 
 .logo {
   font-weight: 700;
-  padding: 5px 20px;
+  padding: 20px;
   color: #6070ff;
 }
 
 .menu-btn {
   color: #6070ff;
-  padding: 5px 20px;
+  padding: 20px;
+  width: 70px;
+}
+
+.headline-section {
+  background-image: url(../img/Header_bg.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 110%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 150px 50px;
+  align-items: center;
+}
+
+.headline-header {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+  width: 320px;
+  padding-bottom: 20px;
+}
+
+.headline-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+  width: 320px;
+  padding-bottom: 20px;
+}
+
+.connect-link {
+  color: #7f8cff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+}
+
+.social-icon {
+  margin-right: 20px;
+  align-self: baseline;
+}
+
+.social-icon i {
+  font-size: 30px;
+  color: #505f79;
 }
