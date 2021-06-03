@@ -97,18 +97,17 @@ a {
 
 .works-section {
   display: grid;
-  grid-template-columns: 1f;
-  grid-auto-rows: 1f;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1fr;
   margin-top: 114px;
 }
 
 .work-card {
-  margin: 0px 24px 88px 24px;
+  margin: 1px 24px 88px 24px;
   padding: 16px 16px 1px 16px;
   background: #fff;
   border: solid #dfe1e6 1px;
   border-radius: 16px;
-  border: 16px;
   width: 327px;
 }
 
