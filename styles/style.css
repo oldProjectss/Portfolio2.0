@@ -266,12 +266,6 @@ a {
   flex-basis: 90vw;
 }
 
-.coll-tab {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
 .coll-item {
   background: #f7f7f9;
   display: flex;
