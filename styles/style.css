@@ -9,12 +9,14 @@
 body {
   top: 20px;
   font-family: Poppins, sans-serif;
+  background: #e5e5e5;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #fff;
 }
 
 .logo {
@@ -35,14 +37,16 @@ a {
 
 .headline-section {
   background-image: url(../img/Header_bg.svg);
+  background-color: #fff;
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 24px;
   justify-content: center;
+  border-bottom-left-radius: 90px;
 }
 
 .headline-header {
@@ -87,4 +91,97 @@ a {
 .social-icon i {
   font-size: 30px;
   color: #505f79;
+}
+
+/* work section styles */
+
+.works-section {
+  display: grid;
+  grid-template-columns: 1f;
+  grid-auto-rows: 1f;
+  margin-top: 114px;
+}
+
+.work-card {
+  margin: 0px 24px 88px 24px;
+  padding: 16px 16px 1px 16px;
+  background: #fff;
+  border: solid #dfe1e6 1px;
+  border-radius: 16px;
+  border: 16px;
+  width: 327px;
+}
+
+.work-cardFirst {
+  margin: 88px 24px;
+}
+
+/* card styles */
+
+.work-name {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.work-info {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.work-info .info-main {
+  padding-right: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #344563;
+}
+
+.work-info .info-description {
+  padding-right: 12px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.work-info .info-sep {
+  color: #c1c7d0;
+}
+
+.work-description {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  color: #344563;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.lang-section {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 3%;
+  padding: 4px 12px;
+  margin-right: 20px;
+  color: #6070ff;
+  background-color: #ebebff;
+  border-radius: 8px;
+}
+
+.work-btn {
+  padding: 14px;
+  margin-top: 26px;
+  margin-bottom: 40px;
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  border: solid 2px #396df2;
+  border-radius: 16px;
+  outline: none;
+  background-color: #fff;
+  letter-spacing: 3%;
 }
