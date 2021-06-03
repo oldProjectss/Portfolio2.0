@@ -260,6 +260,13 @@ a {
   list-style: none;
   display: flex;
   flex-direction: column;
+  flex-basis: 90vw;
+}
+
+.coll-tab {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .coll-item {
