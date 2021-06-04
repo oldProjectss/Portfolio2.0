@@ -64,7 +64,6 @@ a {
   line-height: 24px;
   color: #344563;
   width: 327px;
-  padding-bottom: 20px;
 }
 
 .connect-link {
@@ -75,7 +74,6 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   margin: 12px 1px 14px 1px;
-  display: block;
 }
 
 .social-links {
@@ -235,7 +233,6 @@ a {
   line-height: 24px;
   color: #344563;
   width: 327px;
-  padding-bottom: 20px;
 }
 
 .more-info {
