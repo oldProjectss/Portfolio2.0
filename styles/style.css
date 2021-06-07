@@ -159,11 +159,13 @@ a {
 }
 
 .technologies {
-  display: flex;
+  float: left;
+  margin: 0 auto;
   list-style: none;
 }
 
 .lang-section {
+  display: inline-block;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
