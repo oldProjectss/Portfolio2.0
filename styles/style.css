@@ -159,8 +159,7 @@ a {
 }
 
 .technologies {
-  float: left;
-  margin: 0 auto;
+  display: flex;
   list-style: none;
 }
 
