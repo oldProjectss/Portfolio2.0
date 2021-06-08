@@ -214,7 +214,10 @@ a {
   padding: 24px;
   justify-content: center;
   border-top-right-radius: 90px;
-  margin-top: 114px;
+  margin-top: 44px;
+  position: relative;
+  z-index: -1;
+  bottom: -70px;
 }
 
 .about-me-header {
@@ -289,4 +292,83 @@ hr {
   height: 1px;
   background-color: #dfe1e6;
   border: none;
+}
+
+/* conteact me styles */
+
+.contact-me {
+  background-image: url(../img/contact\ form\ shapes-mobile.svg);
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border-top-left-radius: 90px;
+}
+
+.contact-me-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #fff;
+  margin-top: 103px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 327px;
+}
+
+.contact-me-info {
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ebebff;
+  padding-bottom: 87px;
+  text-align: center;
+}
+
+.contact-me-form ul {
+  list-style: none;
+}
+
+.contact-me-form input,
+.contact-me-form textarea {
+  background-color: #fff;
+  padding: 12px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  width: 95%;
+}
+
+.form-name,
+.form-email,
+.form-textarea {
+  margin: 1px 24px 20px 24px;
+}
+
+.form-btn button {
+  margin-left: 24px;
+  background-color: #fff;
+  color: #6070ff;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.form-btn button:hover {
+  color: #fff;
+  background-color: #6070ff;
+  border-color: #6070ff;
+  cursor: pointer;
+}
+
+.form-btn button:active {
+  color: #fff;
+  background-color: #2230d2;
+  border-color: #2230d2;
 }
