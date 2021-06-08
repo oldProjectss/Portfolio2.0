@@ -305,7 +305,6 @@ hr {
   display: flex;
   flex-direction: column;
   padding: 24px;
-
   border-top-left-radius: 90px;
 }
 
@@ -330,7 +329,7 @@ hr {
   text-align: center;
 }
 
-.contact-me-form {
+.contact-me-form ul {
   list-style: none;
 }
 
