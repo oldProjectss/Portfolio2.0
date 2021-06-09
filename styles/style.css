@@ -459,6 +459,12 @@ hr {
 
   /* card styles */
 
+  .work-container {
+    align-self: flex-start;
+    margin-left: 46px;
+    margin-right: 46px;
+  }
+
   .work-card-reverse .work-container {
     align-self: flex-start;
     margin-right: 46px;
@@ -469,12 +475,6 @@ hr {
     width: 50%;
     height: 100%;
     margin: 24px;
-  }
-
-  .work-container {
-    align-self: flex-start;
-    margin-left: 46px;
-    margin-right: 46px;
   }
 
   .work-name {
