@@ -330,7 +330,7 @@ hr {
   font-weight: 400;
   line-height: 28px;
   color: #ebebff;
-  padding-bottom: 87px;
+  margin-bottom: 87px;
   text-align: center;
 }
 
@@ -554,18 +554,6 @@ hr {
     width: 100%;
     margin-right: 182px;
   }
-  /*  */
-  .more-coll-title {
-    font-size: 20px;
-    font-weight: 500;
-    margin: 15px 10px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .more-coll {
-    list-style: none;
-  }
 
   .coll-item-list {
     list-style: none;
@@ -592,5 +580,29 @@ hr {
   .coll-text {
     margin-left: 12px;
     margin-top: 16px;
+  }
+
+  /* conteact me styles */
+
+  .contact-me {
+    background-image: url(../img/contact\ form\ background\ shapes.svg);
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact-me-title {
+    margin-top: 142px;
+    max-width: 801px;
+  }
+
+  .contact-me-info {
+    margin-bottom: 12px;
+    max-width: 569px;
+    align-self: center;
+  }
+
+  .contact-me-form input,
+  .contact-me-form textarea {
+    width: 50%;
   }
 }
