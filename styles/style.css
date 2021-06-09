@@ -378,7 +378,7 @@ hr {
   border-color: #2230d2;
 }
 
-@media all and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   .header {
     align-items: baseline;
   }
