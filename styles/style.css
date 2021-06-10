@@ -31,7 +31,7 @@ body {
 }
 
 .logo:hover {
-  transform: rotateX(360deg);
+  transform: rotateY(360deg);
 }
 
 a {
@@ -117,6 +117,11 @@ a {
   border: solid #dfe1e6 1px;
   border-radius: 16px;
   width: 327px;
+  transition: box-shadow 0.3s ease-in;
+}
+
+.work-card:hover {
+  box-shadow: 4px 4px 4px 4px hsla(234, 100%, 69%, 0.7);
 }
 
 .work-cardFirst {
@@ -359,14 +364,28 @@ hr {
 .form-name,
 .form-email,
 .form-textarea {
-  margin: 1px 24px 20px 24px;
+  padding: 1px 24px 20px 24px;
   transition: 100ms linear;
 }
 
-.form-name:hover,
-.form-email:hover,
-.form-textarea:hover {
-  border-left: solid 5px blue;
+.form-name input,
+.form-email input,
+.form-textarea textarea {
+  transition: 100ms linear;
+  /* border-left: solid 5px blue; */
+}
+
+.form-name input:valid,
+.form-email input:valid,
+.form-textarea textarea:valid {
+  border-right: solid 5px #3de43d;
+  border-radius: 8px;
+}
+
+.form-name input:focus,
+.form-email input:focus,
+.form-textarea textarea:focus-within {
+  border: dotted 2px #091bbb;
   border-radius: 8px;
 }
 
@@ -379,7 +398,8 @@ hr {
   border: none;
   font-size: 17px;
   font-weight: 500;
-  transition: color 500ms ease-in, background-color 500ms ease-in;
+  transition: color 500ms ease-in, background-color 500ms ease-in,
+    border 500ms ease-in-out;
 }
 
 .form-btn button:hover {
@@ -387,6 +407,8 @@ hr {
   background-color: #6070ff;
   border-color: #6070ff;
   cursor: pointer;
+  border: solid 2px #091bbb;
+  border-radius: 8px;
 }
 
 .form-btn button:active {
@@ -468,19 +490,6 @@ hr {
     align-items: center;
     width: 1156px;
     height: 496px;
-    transition: 0.4s;
-  }
-  .work-card:nth-child(4):hover{
-    box-shadow: 4px 4px 4px 4px orange; 
-  }
-  .work-card:nth-child(2):hover{
-    box-shadow: 4px 4px 4px 4px yellow; 
-  }
-  .work-card:nth-child(3):hover{
-    box-shadow: 4px 4px 4px 4px blue; 
-  }
-  .work-card:nth-child(1):hover{
-    box-shadow: 4px 4px 4px 4px red; 
   }
 
   .work-card-reverse {
