@@ -27,6 +27,11 @@ body {
   font-weight: 700;
   margin: 24px;
   color: #6070ff;
+  transition: transform 1s ease-in-out;
+}
+
+.logo:hover {
+  transform: rotateX(360deg);
 }
 
 a {
@@ -192,6 +197,7 @@ a {
   outline: none;
   background-color: #fff;
   letter-spacing: 3%;
+  transition: color 500ms ease-in, background-color 500ms ease-in;
 }
 
 .work-btn:hover {
@@ -354,6 +360,14 @@ hr {
 .form-email,
 .form-textarea {
   margin: 1px 24px 20px 24px;
+  transition: 100ms linear;
+}
+
+.form-name:hover,
+.form-email:hover,
+.form-textarea:hover {
+  border-left: solid 5px blue;
+  border-radius: 8px;
 }
 
 .form-btn button {
@@ -365,6 +379,7 @@ hr {
   border: none;
   font-size: 17px;
   font-weight: 500;
+  transition: color 500ms ease-in, background-color 500ms ease-in;
 }
 
 .form-btn button:hover {
