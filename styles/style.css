@@ -398,9 +398,9 @@ hr {
   font-size: 17px;
   font-weight: 500;
   transition:
-  color 500ms ease-in,
-  background-color 500ms ease-in,
-  border 500ms ease-in-out;
+    color 500ms ease-in,
+    background-color 500ms ease-in,
+    border 500ms ease-in-out;
 }
 
 .form-btn button:hover {
