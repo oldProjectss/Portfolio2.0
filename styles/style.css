@@ -397,7 +397,8 @@ hr {
   border: none;
   font-size: 17px;
   font-weight: 500;
-  transition: color 500ms ease-in, background-color 500ms ease-in,
+  transition: color 500ms ease-in,
+    background-color 500ms ease-in,
     border 500ms ease-in-out;
 }
 
